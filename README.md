@@ -2,7 +2,9 @@
 
 📌 Sobre o Projeto
 
-Este repositório reúne uma coleção de exercícios de lógica de programação, todos implementados em Portugol utilizando o Visualg.
+Este repositório reúne uma coleção de exercícios de lógica de programação, todos implementados em Portugol utilizando o Visualg. Referência bibliográfica: EXERCÍCIOS e Respostas 
+de Lógica de Programação - ALGORITMOS - 
+Profa. Flávia Pereira de Carvalho 
 
 O objetivo é praticar e consolidar conceitos fundamentais de programação, tais como:
 

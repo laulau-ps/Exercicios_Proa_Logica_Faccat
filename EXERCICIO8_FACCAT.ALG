@@ -1,9 +1,10 @@
 Algoritmo "Exercicio8_Faccat"
-// Exercício 8 apostila Lógica de Programação e Algoritmos Faccat
+
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Solicita o número total de eleitores de um municipio, numero de votos brancos, nulos e válidos. Calcula e escreve o percentual desses votos em relação ao total de eleitores
 // Autor(a)    : Laura Sena
+// Exercício 8 apostila Lógica de Programação e Algoritmos Faccat
 // Data atual  : 29/08/2025
 Var
 // Seção de Declarações das variáveis 

@@ -1,9 +1,10 @@
 Algoritmo "Exercicio9_Faccat"
-// Exercício 9 - Apostila Lógica de Programação e Algoritmos Faccat
+
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Solicita o salário mensal de um funcionário e o percentual de reajuste, calcula e exibe o valor do novo salário
 // Autor(a)    : Laura Sena
+// Exercício 9 - Apostila Lógica de Programação e Algoritmos Faccat
 // Data atual  : 29/08/2025
 Var
 // Seção de Declarações das variáveis 

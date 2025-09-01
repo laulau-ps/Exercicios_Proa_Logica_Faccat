@@ -6,8 +6,7 @@ Algoritmo "sucessor"
 // Data atual  : 28/08/2025
 Var
 // Seção de Declarações das variáveis
-num : inteiro
-suc : inteiro
+num, suc : inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...

@@ -1,9 +1,10 @@
 Algoritmo "Exercicio7_Faccat"
-// Exercício 7 apostila Lógica de Programação e Algoritmos Faccat
+
 // Disciplina   : [Lógica de Programação]
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Solicita a idade do usuario expressa em anos, meses e dias, calcule e exiba sua idade somente em dias
 // Autor(a)    : Laura Sena
+// Exercício 7 apostila Lógica de Programação e Algoritmos Faccat
 // Data atual  : 29/08/2025
 Var
 // Seção de Declarações das variáveis 

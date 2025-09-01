@@ -1,15 +1,14 @@
 Algoritmo "Exercicio6_Faccat"
-// Exercício 6 apostila Lógica de Programação e Algoritmos Faccat
+
 // Disciplina   : [Lógica de Programação]
-// Professor   : Laura Sena
+// Professor   : Jailson Costa dos Santos
 // Descrição   : Solicita a altura e a base de um retângulo e exibe sua área
 // Autor(a)    : Laura Sena
+// Exercício 6 apostila Lógica de Programação e Algoritmos Faccat
 // Data atual  : 28/08/2025
 Var
 // Seção de Declarações das variáveis 
-alt : real
-base : real
-area : real
+alt, base, area : real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 

@@ -6,24 +6,24 @@ Algoritmo "EXERCICIO11_FACCAT"
 // Data atual  : 01/09/2025
 // Exercício 11 - Apostila Lógica de Programação e Algoritmos Faccat
 Var
-// Seção de Declarações das variáveis 
-qtdecarros : inteiro
-vendas, salariofixo, valorporcarro, totalvendas, comissaocarro, salariofinal : real
+   // Seção de Declarações das variáveis
+   qtdecarros : inteiro
+   valorvendas, salariofixo, valorporcarro, totalvendas, comissaocarro, salariofinal : real
 
 Inicio
-// Seção de Comandos, proce dimento, funções, operadores, etc...
-escreval ("Informe quantos carros você vendeu:")
-leia (qtdecarros)
-escreval ("Informe o valor total das suas vendas:")
-leia (vendas)
-escreval ("Informe seu salário fixo:")
-leia (salariofixo)
-escreval ("Informe o valor recebido por carro vendido:")
-leia (valorporcarro)
-totalvendas <- (vendas /100 * 5) + vendas
-comissaocarro <- qtdecarros * valorporcarro
-salariofinal <- comissaocarro + totalvendas + salariofixo
-escreval ("Seu salário final é de: ", salariofinal, "R$")
+   // Seção de Comandos, proce dimento, funções, operadores, etc...
+   escreval ("Informe seu salário fixo:")
+   leia (salariofixo)
+   escreval ("Informe quantos carros você vendeu no mês:")
+   leia (qtdecarros)
+   escreval ("Informe o valor recebido por carro vendido:")
+   leia (valorporcarro)
+   escreval ("Informe o valor total das suas vendas:")
+   leia (valorvendas)
+   totalvendas <- valorvendas /100 * 5
+   comissaocarro <- qtdecarros * valorporcarro
+   salariofinal <- comissaocarro + totalvendas + salariofixo
+   escreval ("Seu salário final é de: ", salariofinal, "R$")
 
 
 Fimalgoritmo

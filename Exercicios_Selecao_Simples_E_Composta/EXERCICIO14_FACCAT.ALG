@@ -7,7 +7,7 @@ Algoritmo "EXERCICIO14_FACCAT"
 // Data atual  : 03/09/2025
 Var
    // Seção de Declarações das variáveis
-numero : inteiro
+   numero : inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -17,11 +17,8 @@ Inicio
    se (numero>10) entao
       escreval ("O número digitado é maior que 10!")
    senao
-      se (numero = 10) entao
-         escreval ("O número digitado é igual a 10!")
-      senao
-         escreval ("O número digitado é menor que 10!")
-      fimse
+      escreval ("O número digitado não é maior que 10!")
+
    fimse
 
 Fimalgoritmo

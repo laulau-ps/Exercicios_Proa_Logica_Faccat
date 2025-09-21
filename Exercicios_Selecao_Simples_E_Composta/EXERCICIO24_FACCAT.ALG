@@ -7,7 +7,7 @@ Algoritmo "EXERCICIO24_FACCAT"
 // Data atual  : 10/09/2025
 Var
    // Seção de Declarações das variáveis
-salario_fixo, total_vendas, salario_base, salario_final, comissao : real
+   salario_fixo, total_vendas, salario_base, salario_final, comissao, comissao_extra : real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -15,13 +15,16 @@ Inicio
    leia (salario_fixo)
    escreva ("Digite o valor total de suas vendas: ")
    leia (total_vendas)
-   salario_base <- total_vendas * 3/100 + salario_fixo
-   se (total_vendas > 1500) entao
-      comissao <- (total_vendas - 1500) * 5/100
-      salario_final <- comissao + salario_fixo
-      escreva ("Seu salário final é de: R$", salario_final)
-   senao
+
+   se (total_vendas <= 1500) entao
+      comissao <- total_vendas * 3/100
+      salario_base <- comissao + salario_fixo
       escreva ("Seu salário final é de: R$", salario_base)
+   senao
+      comissao <- 1500 * 3/100
+      comissao_extra <- (total_vendas - 1500) * 5/100
+      salario_final <- comissao + comissao_extra + salario_fixo
+      escreva ("Seu salário final é de: R$", salario_final)
    fimse
 
 Fimalgoritmo

@@ -7,20 +7,20 @@ Algoritmo "EXERCICIO26_FACCAT"
 // Data atual  : 10/09/2025
 Var
    // Seção de Declarações das variáveis
-quantidade_atual, quantidade_maxima, quantidade_minima : inteiro
-quantidade_media : real
+   quantidade_atual, quantidade_maxima, quantidade_minima : inteiro
+   quantidade_media : real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva ("Digite a quantidade em estoque: ")
+   escreva ("Digite a quantidade atual do produto em estoque: ")
    leia (quantidade_atual)
-   escreva ("Digite a quantidade máxima do estoque: ")
+   escreva ("Digite a quantidade máxima permitida do produto no estoque: ")
    leia (quantidade_maxima)
-   escreva ("Digite a quantidade mínima do estoque: ")
+   escreva ("Digite a quantidade mínima permitida do produto no estoque: ")
    leia (quantidade_minima)
    quantidade_media <- (quantidade_maxima + quantidade_minima)/2
-   se (quantidade_media > quantidade_atual) entao
-      escreva ("A quantidade média do seu estoque é de ",quantidade_media,", e a atual é de ",quantidade_atual, ". Efetuar compra")
-   senao
+   se (quantidade_atual >= quantidade_media ) entao
       escreva ("A quantidade média do seu estoque é de ",quantidade_media,", e a atual é de ",quantidade_atual, ". Não efetuar compra")
+   senao
+      escreva ("A quantidade média do seu estoque é de ",quantidade_media,", e a atual é de ",quantidade_atual, ". Efetuar compra")
    fimse
 Fimalgoritmo

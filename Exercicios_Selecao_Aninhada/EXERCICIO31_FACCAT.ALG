@@ -7,7 +7,7 @@ Algoritmo "EXERCICIO31_FACCAT"
 // Data atual  : 11/09/2025
 Var
    // Seção de Declarações das variáveis
-lado_a, lado_b, lado_c : inteiro
+   lado_a, lado_b, lado_c : inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -17,18 +17,18 @@ Inicio
    leia (lado_b)
    escreval ("Informe o valor do 3º lado")
    leia (lado_c)
-   se (lado_a + lado_b < lado_c) entao
-      escreval ("Os valores formam um triângulo")
-   senao
-      se (lado_a + lado_c < lado_b) entao
-         escreval ("Os valores formam um triângulo")
-      senao
-         se (lado_b + lado_c < lado_a) entao
+   se (lado_a + lado_b > lado_c) entao
+      se (lado_a + lado_c > lado_b) entao
+         se (lado_b + lado_c > lado_a) entao
             escreval ("Os valores formam um triângulo")
          senao
-            escreval ("Esses valores não formam um triângulo")
+            escreval ("Os valores não formam um triângulo")
          fimse
+      senao
+         escreval ("Os valores não formam um triângulo")
       fimse
+   senao
+      escreval ("Os valores não formam um triângulo")
    fimse
 
 Fimalgoritmo
